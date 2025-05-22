@@ -10,12 +10,8 @@ Author: Nick Wlodychak
 Version: 0.1
 Date: 2025-05-19
 """
-
-import subprocess
-from pathlib import Path
 import argparse
 import glob
-import os
 from utils import run_command
 
 def get_args():
